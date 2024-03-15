@@ -1,0 +1,43 @@
+body{
+    background: #222831;
+    color: #EEEEEE;
+}
+
+.consola{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 99vw;
+    height: 50vw;
+}
+.consolita{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background: #31363F;
+    border-radius: 20px;
+}
+
+.titulos{
+    position: absolute;
+}
+.subtitulo{
+    grid-template-columns: 1/3;
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.boton{
+    background: #76ABAE;
+    top: 30%;
+}
+.targetas{}
+
+#date{
+    position: absolute;
+}
+
+.fotos{
+    width: 10vw;
+    height: 5vw;
+}
